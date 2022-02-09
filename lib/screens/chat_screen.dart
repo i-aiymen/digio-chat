@@ -4,6 +4,8 @@ import '../constants.dart';
 
 class ChatScreen extends StatefulWidget {
 
+  static const String id = 'chat_screen';
+
   @override
   _ChatScreenState createState() => _ChatScreenState();
 }
@@ -14,7 +16,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return Scaffold(
       appBar: AppBar(
         leading: null,
-        actions: <Widget>[
+        actions: [
           IconButton(
               icon: Icon(Icons.close),
               onPressed: () {
@@ -28,7 +30,7 @@ class _ChatScreenState extends State<ChatScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
+          children: [
             Container(
               decoration: MessageContainerDecoration,
               child: Row(
@@ -42,7 +44,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       decoration: MessageTextFieldDecoration,
                     ),
                   ),
-                  FlatButton(
+                  TextButton(
                     onPressed: () {
                       //Implement send functionality.
                     },
