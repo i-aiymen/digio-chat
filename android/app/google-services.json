@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393058080084",
+    "project_id": "digio-chat-53b81",
+    "storage_bucket": "digio-chat-53b81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393058080084:android:d8c455d45331b59cd824c1",
+        "android_client_info": {
+          "package_name": "com.example.digio_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393058080084-npiq6chmmunfc4n202vllob5iltfebv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTsXxp4Gn22bEEjcqwjy8FSr9_rvmNdvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393058080084-npiq6chmmunfc4n202vllob5iltfebv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
